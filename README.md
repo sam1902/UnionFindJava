@@ -12,7 +12,7 @@ It provides **near-constant-time operations** (bounded by the inverse *Ackermann
 
 Union-Find maintains a *forest* of *tree*, similar to a linked-list
 
-<img src="/images/PathReduction.png?raw=true" alt="Path reduction" width="400"/>
+<img src="/images/PathReduction.png?raw=true" alt="Path reduction" width="700"/>
 
 Paths in the tree can be compressed in three ways (c.f. `DisjointSetNodePC`/`PH`/`PS`) to reduce the computation time of `find` in the future
 
