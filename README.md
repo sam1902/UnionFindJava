@@ -9,8 +9,10 @@ It provides **near-constant-time operations** (bounded by the inverse *Ackermann
  - determine whether elements are in the same set (`find`)
  
 ![Example underlying structure](/images/Forest.png?raw=true "Union-Find maintains a *forest* of *tree*, similar to a linked-list")
+Union-Find maintains a *forest* of *tree*, similar to a linked-list
 
 ![Path reduciton](/images/PathReduction.png?raw=true "Paths in the tree can be compressed in three ways (c.f. `DisjointSetNodePC`/`PH`/`PS`) to reduce the computation time of `find` in the future")
+Paths in the tree can be compressed in three ways (c.f. `DisjointSetNodePC`/`PH`/`PS`) to reduce the computation time of `find` in the future
 
  
 In addition to just being awesome, disjoint-sets play a key role in Kruskal's algorithm 
